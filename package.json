@@ -26,7 +26,8 @@
     "ignore": ["client"]
   },
   "scripts": {
-    "start": "nodemon server/app.js",
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
     "serve": "cd client && npm run serve"
   },
   "author": "",
